@@ -62,7 +62,7 @@ This should be everything that you need to get you up and running.
 6. Request funds from the faucet with
 
 
-    curl -v -XPOST “hhttps://faucet.shelley-testnet.dev.cardano.org/send-money/$(cat payment.addr)"
+    curl -v -XPOST "https://faucet.shelley-testnet.dev.cardano.org/send-money/$(cat payment.addr)"
 
 
 You can also hit it once a day without the API key to get 1K.
